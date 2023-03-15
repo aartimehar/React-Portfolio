@@ -1,4 +1,5 @@
 import React from "react";
+import profilepicture from "/React-Portfolio/challenge/Project/my-app/public/items.json";
 
 
 function Home() {
@@ -14,7 +15,11 @@ function Home() {
         elit. Donec blandit est sed risus feugiat porttitor. Vestibulum molestie hendrerit massa non
         consequat. Vestibulum vitae lorem tortor. In elementum ultricies tempus. Interdum et
         malesuada fames ac ante ipsum primis in faucibus.
-        <a></a>
+        <Image
+         source={data.image}
+         resizeMode='contain'
+         style={{ width: null, height: null, flex: 1 }}
+        />
       </p>
     </div>
   );
