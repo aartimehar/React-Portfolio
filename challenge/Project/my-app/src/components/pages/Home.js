@@ -1,5 +1,5 @@
 import React from "react";
-import profilepicture from "/React-Portfolio/challenge/Project/my-app/public/items.json";
+// import "../styles/home.css"
 
 
 function Home() {
@@ -15,12 +15,9 @@ function Home() {
         elit. Donec blandit est sed risus feugiat porttitor. Vestibulum molestie hendrerit massa non
         consequat. Vestibulum vitae lorem tortor. In elementum ultricies tempus. Interdum et
         malesuada fames ac ante ipsum primis in faucibus.
-        <Image
-         source={data.image}
-         resizeMode='contain'
-         style={{ width: null, height: null, flex: 1 }}
-        />
+        <img className="logo" src={require("../images/logo.png")} alt={"Aarti"}/>
       </p>
+      
     </div>
   );
 }
